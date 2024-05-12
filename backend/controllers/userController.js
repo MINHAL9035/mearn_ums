@@ -54,7 +54,7 @@ const registerUser = asyncHandler(async (req, res) => {
 })
 
 const logoutUser = asyncHandler(async (req, res) => {
-    res.cookie('jwt', '', {
+    res.cookie('userJwt', '', {
         httpOnly: true,
         expires: new Date(0)
     })

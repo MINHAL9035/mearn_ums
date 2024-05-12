@@ -57,7 +57,7 @@ function Header() {
                 <Link to='/profile'>
                   <button className="block w-full text-left px-4 py-2 text-blue-500 hover:bg-blue-100 focus:outline-none">{userInfo.name}</button>
                 </Link>
-                <Link to='/login' >
+                <Link to='/logout' >
                   <button onClick={logoutHandler} className="block w-full text-left px-4 py-2 text-blue-500 hover:bg-blue-100 focus:outline-none">logout</button>
                 </Link>
               </>
@@ -68,7 +68,7 @@ function Header() {
                   <Link to='/profile'>
                     <button className="block w-full text-left px-4 py-2 text-blue-500 hover:bg-blue-100 focus:outline-none">Profile</button>
                   </Link>
-                  <Link to='/login' >
+                  <Link to='/' >
                     <button className="block w-full text-left px-4 py-2 text-blue-500 hover:bg-blue-100 focus:outline-none">Login</button>
                   </Link>
                 </>
@@ -113,7 +113,7 @@ function Header() {
                       <span>Profile</span>
                     </button>
                   </Link>
-                  <Link to='/login' >
+                  <Link to='/' >
                     <button className="flex items-center bg-white text-blue-500 px-3 py-1 rounded-md focus:outline-none">
                       <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>

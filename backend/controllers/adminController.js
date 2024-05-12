@@ -23,7 +23,7 @@ const authAdmin = asyncHandler(async (req, res) => {
 
 
 const adminLogout = asyncHandler(async (req, res) => {
-    res.cookie('jwt', '', {
+    res.cookie('adminJwt', '', {
         httpOnly: true,
         expires: new Date(0)
     })

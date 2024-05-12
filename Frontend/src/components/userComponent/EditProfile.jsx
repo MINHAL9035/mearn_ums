@@ -82,7 +82,7 @@ const EditProfile = ({ isOpen, onClose }) => {
                            {selectedImage &&  <img src={URL.createObjectURL(selectedImage)} alt="Upload" className="w-24 h-24 rounded-full mt-3 mx-auto cursor-pointer hover:opacity-75 transition duration-300" />}
                             <span className="text-blue-500 font-semibold mt-2 block"></span>
                         </label>
-                        <input type="file" onChange={handleImageChange} accept="image/*" id="image" name="image" className='mt-1 mb-2 block w-full shadow-sm sm:text-sm focus:ring-teal-500 focus:border-teal-500 border-gray-300 rounded-md' />
+                        <input type="file" onChange={handleImageChange} accept="image/*" id="image" name="image"  className='mt-1 mb-2 block w-full shadow-sm sm:text-sm focus:ring-teal-500 focus:border-teal-500 border-gray-300 rounded-md' />
                     </div>
 
                     <div className="mb-4">
