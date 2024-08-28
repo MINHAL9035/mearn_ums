@@ -16,6 +16,7 @@ const EditProfile = ({ isOpen, onClose }) => {
     const [updateProfile, { isLoading }] = useUpdateUserMutation()
     
     const dispatch = useDispatch()
+    
 
     useEffect(() => {
         setName(userInfo.name)
